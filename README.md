@@ -211,6 +211,45 @@ This log captures important variables for CIP_Identity objects and logs them to 
 | product_name          | string    | Human readable description of device                          |
 | device_state          | string    | Current state of the device                                   |
 
+### ENIP/CIP Logging Detail for Specific Command and Service Codes
+The following table summarizes logging coverage for specific EtherNet/IP encapsulation commands and CIP service codes.
+
+| Protocol | Function                  | Logging Detail       |
+| -------- | ------------------------- | -------------------- |
+| CIP      | Get Attributes All        | Logged - Header Only |
+| CIP      | Set Attributes All        | Logged - Header Only |
+| CIP      | Get Attribute List        | Logged - Header Only |
+| CIP      | Set Attribute List        | Logged - Header Only |
+| CIP      | Reset                     | Logged - Header Only |
+| CIP      | Start                     | Logged - Header Only |
+| CIP      | Stop                      | Logged - Header Only |
+| CIP      | Create                    | Logged - Header Only |
+| CIP      | Delete                    | Logged - Header Only |
+| CIP      | Multiple Service Packet   | Logged - Header Only |
+| CIP      | Apply Attributes          | Logged - Header Only |
+| CIP      | Get Attribute Single      | Logged - Header Only |
+| CIP      | Set Attribute Single      | Logged - Header Only |
+| CIP      | Find Next Object Instance | Logged - Header Only |
+| CIP      | Restore                   | Logged - Header Only |
+| CIP      | Save                      | Logged - Header Only |
+| CIP      | Get Member                | Logged - Header Only |
+| CIP      | Set Member                | Logged - Header Only |
+| CIP      | Insert Member             | Logged - Header Only |
+| CIP      | Remove Member             | Logged - Header Only |
+| CIP      | Group Sync                | Logged - Header Only |
+| ENIP     | NOP                       | Logged - Header Only |
+| ENIP     | List Services             | Logged - Header Only |
+| ENIP     | List Identity             | Logged - Full        |
+| ENIP     | List Interfaces           | Logged - Header Only |
+| ENIP     | Register Session          | Logged - Header Only |
+| ENIP     | Unregister Session        | Logged - Header Only |
+| ENIP     | Send RR Data              | Logged - Header Only |
+| ENIP     | Send Unit Data            | Logged - Header Only |
+| ENIP     | Start DTLS                | Logged - Header Only |
+| ENIP     | Indicate Status           | Logged - Header Only |
+| ENIP     | Cancel                    | Logged - Header Only |
+
+
 ### Source and Destination Fields
 
 #### Overview
